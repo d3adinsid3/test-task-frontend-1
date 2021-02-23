@@ -1,0 +1,141 @@
+
+
+ body{
+   font-size: 1.2em;
+ }
+ 
+ 
+ .maincards {
+  
+   margin:auto;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 3em;
+   border: 1px solid #444;
+   height: 5%;
+   width: 50%;
+  text-align: center;
+   border-radius: 0.6em;
+ }
+ 
+ .cards {
+   
+  cursor: grab;
+   flex: 1 0 21%;
+   height: 10em;
+   margin: 0.9em;
+   word-break: break-all;
+   
+ }
+ 
+ .selected {
+  opacity: 0.6;
+}
+ 
+ .dropdown {
+  flex: 0 0 100%;
+  position: relative;
+  display: inline-block;
+}
+.dropdown>a {
+  float:left;
+}
+
+li>ul {
+  display: none;
+}
+
+li:hover>ul {
+  display: block;
+}
+
+.dropdown-content {
+  margin-top:1.1em;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 14em;
+  min-height: 10em;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content>li {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media only screen and (max-width: 700px) {
+  body{
+    font-size: 1.5em;
+  }
+  .maincards{
+    width:70%;
+    margin:0;
+    padding:2em;
+  }
+  .cards{
+    flex: 1 0 40%;
+  }
+  
+  
+}
+
+#panel1 {
+  display: none;
+  padding:0.5em;
+}
+#panel2 {
+  display: none;
+  padding:0.5em;
+}
+#panel3 {
+  display: none;
+  padding:0.5em;
+}
+#panel4 {
+  display: none;
+  padding:0.5em;
+}
+#panel5 {
+  display: none;
+  padding:0.5em;
+}
+#panel6 {
+  display: none;
+  padding:0.5em;
+}
+#panel7 {
+  display: none;
+  padding:0.5em;
+}
+#panel8 {
+  display: none;
+  padding:0.5em;
+}
+#panel9 {
+  display: none;
+  padding:0.5em;
+}
+#panel10 {
+  display: none;
+  padding:0.5em;
+}
+#panel11 {
+  display: none;
+  padding:0.5em;
+}
+#panel12 {
+  display: none;
+  padding:0.5em;
+}
